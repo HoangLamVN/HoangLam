@@ -1,0 +1,405 @@
+Start = 1
+
+-------Phần Menu Choice------
+function Start()
+MenuScript = gg.choice({'Level 100.000','Farm 6 Food 0 Second','Watch ADS (Hatch/Breed)','Skip 15 Minute','Terra Cover Any','Show Code Dragon City','No Expand','Move Habital','Remove Time Building Habital','End Script'},Last,'Design by VietNamese Only #1')
+
+
+if MenuScript == nil then Noselect() end
+if MenuScript == 1 then Function1() end
+if MenuScript == 2 then Function2() end
+if MenuScript == 3 then Function3() end
+if MenuScript == 4 then Function4() end
+if MenuScript == 5 then Function5() end
+if MenuScript == 6 then Function6() end
+if MenuScript == 7 then Function7() end
+if MenuScript == 8 then Function8() end
+if MenuScript == 9 then Function9() end
+if MenuScript == 10 then os.exit() end
+MainMenu = -1
+end
+
+
+-------Phần Function-----
+function Function1()
+List = gg.multiChoice({'Level 70','Level 65','Level 60','Level 55','Level 50','Level 45','Level 40','Level 35','Level 30','Level 25','Level 20','Level 15','Level 10','Back to Menu'},nil,'Level Up')
+
+if List == nil then else
+if List[1] == true then Level70() end
+if List[2] == true then Level65() end
+if List[3] == true  then Level60() end
+if List[4] == true then Level55() end
+if List[5] == true then Level50() end
+if List[6] == true then Level45() end
+if List[7] ==true then Level40() end
+if List[8] == true then Level35() end
+if List[9] == true then Level30() end
+if List[10] == true then Level25() end
+if List[11] == true then Level20() end
+if List[12] == true then Level15() end
+if List[13] == true then Level10() end
+if List [14] == true then Start() end
+end end
+
+function Level70()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1011~2900;276::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("276", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("399996", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Level65()
+gg.searchNumber("1011~2900;256::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("256", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("399996", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Level60()
+gg.searchNumber("1011~2900;236::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("236", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("399996", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Level55()
+gg.searchNumber("1011~2900;216::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("216", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("399996", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Level50()
+gg.searchNumber("1011~2900;196::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("196", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("399996", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Level45()
+gg.searchNumber("1011~2900;176::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("176", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("399996", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+
+function Level40()
+gg.searchNumber("1011~2900;156::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("156", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("19996", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Level35()
+gg.searchNumber("1011~2900;136::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("136", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("399996", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Level30()
+gg.searchNumber("1011~2900;116::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("116", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("399996", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Level25()
+gg.searchNumber("1011~2900;96::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("96", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("399996", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Level20()
+gg.searchNumber("1011~2900;76::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("76", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("19996", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Level15()
+gg.searchNumber("1011~3000;56::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("399996", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Level10()
+gg.searchNumber("1011~3000;36::100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("36", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("399996", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+----------Level 100.000
+function Function2() 
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("30;6;25;250", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(1000)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+-----Food Farm
+
+function Function3()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1800;1800:50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1800", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000)
+gg.editAll("1001800", gg.TYPE_DWORD)
+gg.clearResults()
+end
+-----Watch ADS
+
+function Function4()
+gg.timeJump('14:00')
+end
+-----Time Jump
+
+function Function6()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("Q'tid_'", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.processResume()
+revert = gg.getResults(200000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("Q ''", gg.TYPE_BYTE)
+gg.clearResults()
+end
+
+function Funciton7()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_C_DATA)
+gg.searchNumber("Q 'expansions'", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.processResume()
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("Q 'h'", gg.TYPE_BYTE)
+gg.clearResults()
+end
+
+function Function8()
+Move = gg.multiChoice({
+'Move 6 Free',
+'Move 5 Free',
+'Move 4 Free,',
+'Move 3 Free',
+'Move 2 Free',
+'Move 1 Free',
+'Back',
+}
+,nil,
+'Move Habitat Free')
+
+if Move == nil then else
+if Move[1] == true then Move1() end
+if Move[2] == true then Move2() end
+if Move[3] == true then Move3() end
+if Move[4] == true then Move4() end
+if Move[5] == true then Move5() end
+if Move[6] == true then Move6() end
+if Move[7] == true then Start() end end end
+
+function Move1()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1086324736;1086324736::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Move2()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1084227584;1084227584::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Move3()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1082130432;1082130432::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Move4()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1077936128;1077936128::5", gg.TYPE_DWORD, false, 
+gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Move5()
+gg.setRanges(gg.REGION_C_ALLOC)
+   gg.searchNumber("-300~300F;1 073 741 824;1 073 741 824::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+   gg.refineNumber("1 073 741 824", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+   gg.getResults(5000)
+   gg.editAll("0", gg.TYPE_DWORD)
+   gg.clearResults()
+end
+   
+function Move6()
+  gg.setRanges(gg.REGION_C_ALLOC)
+   gg.searchNumber("-300~300F;1 065 353 216;1 065 353 216;2~1000;10~10000::17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+   gg.refineNumber("1 065 353 216", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+   gg.getResults(5000)
+   gg.editAll("0", gg.TYPE_DWORD)
+   gg.clearResults()
+end
+
+
+function Function9()
+Habitat = gg.multiChoice({'Nature','Ice','Electric','Metal','Dark','Legend','Pure','Light','War','Primal','Wind','Back to Menu'},nil,'Skip Time Habitat [ Level 1 ]')
+
+if Habitat[1] == true then Nature() end
+if Habitat[2] == true then Ice() end
+if Habitat[3] == true then Electric() end
+if Habitat[4] == true then Metal() end
+if Habitat[5] == true then Dark() end
+if Habitat[6] == true then Legend() end
+if Habitat[7] == true then Pure() end
+if Habitat[8] == true then Light() end
+if Habitat[9] == true then War() end
+if Habitat[10] == true then Primal() end
+if Habitat[11] == true then Wind() end
+if Habitat [12] == true then Start() end
+if Habitat == nil then else
+end
+end
+
+function Nature()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("24;1500;3600", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("3600", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Ice()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("32;50000;3600", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("3600", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Electric()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("34;20000;7200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("7200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Metal()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("36;75000;3600", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("3600", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Dark()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("38;800000;7200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("7200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Legend()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("40;5000000;28800", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("28800", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Pure()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("118;3750000;21600", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("21600", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Light()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("140;1250000;14400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("14400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function War()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("142;2750000;14400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("14400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Primal()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("589;3750000;21600", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("21600", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function Wind()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("942;500000;10800", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("10800", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+end
+-----Habitat
+
+
+
+function Noselect()
+gg.sleep(1)
+end
+
+
+print('Thanks you because using we script !!! Happy a day')
+
+while(true) do
+if gg.isVisible(true) then
+MainMenu = 1
+MainMenu2 = 2
+gg.setVisible(false)
+end
+
+if MainMenu == 1 then Start() end
+end
